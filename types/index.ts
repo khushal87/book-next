@@ -6,6 +6,8 @@ export type Blog = {
     category: string;
     tags: string[];
     order: number;
+    name: string;
+    html: string;
 };
 
 export type PostMarkdownAttributes = {

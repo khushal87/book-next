@@ -1,17 +1,30 @@
+import React from "react";
 import { AppShell, Navbar, Header } from "@mantine/core";
+import { Header as HeaderDefault } from "../components/Header/Header";
+import { SideNavbar } from "./SideNavbar";
 
-export default function Layout({ children }: any) {
+export default function Layout({ blogs, children }: any) {
+    const [navbarOpened, setNavbarState] = React.useState(false);
+
     return (
         <AppShell
             padding="md"
             navbar={
-                <Navbar width={{ base: 200 }} height={900} p="xs">
-                    {/* Navbar content */}
+                <Navbar
+                    p="md"
+                    hiddenBreakpoint="sm"
+                    hidden={!navbarOpened}
+                    width={{ sm: 200, lg: 300 }}
+                >
+                    <SideNavbar blogs={blogs} />
                 </Navbar>
             }
             header={
-                <Header height={60} p="xs">
-                    {/* Header content */}
+                <Header height={53}>
+                    <HeaderDefault
+                        navbarOpened={navbarOpened}
+                        toggleNavbar={() => setNavbarState((o) => !o)}
+                    />
                 </Header>
             }
             styles={(theme) => ({

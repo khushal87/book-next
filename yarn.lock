@@ -211,6 +211,14 @@
   dependencies:
     "@mantine/ssr" "4.0.5"
 
+"@mantine/prism@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-4.0.5.tgz#5ae89b536e3584439e3c46ac6ec5661deb0a6fe9"
+  integrity sha512-cuBmqb4sAzlVgu+mMlfmulC7ENDILLdUCu9wm7HUUtjR9C5v/1Us41u13Z25HShQnv5bd059BrzgPhzqd//Bsw==
+  dependencies:
+    clsx "^1.1.1"
+    prism-react-renderer "^1.2.1"
+
 "@mantine/ssr@4.0.5":
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-4.0.5.tgz#65c3cca387d912170896fe48628eb30549107223"
@@ -267,6 +275,14 @@
     unist-util-stringify-position "^3.0.0"
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
+
+"@mdx-js/react@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.1.0.tgz#2aca56d3d9d6f1bbee9f3c44bd26890331419953"
+  integrity sha512-RlPnY2WcVe91pOilf3Rmu1pArKj7gSK03uoaMFKjPWTyh9t6t1VYGSX40twlpChNSPmbcQ29D0xvSBOVMWA6yw==
+  dependencies:
+    "@types/mdx" "^2.0.0"
+    "@types/react" ">=16"
 
 "@modulz/radix-icons@^4.0.0":
   version "4.0.0"
@@ -370,6 +386,11 @@
   version "2.11.4"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.4.tgz#d8c7b8db9226d2d7664553a0741ad7d0397ee503"
   integrity sha512-q/ytXxO5NKvyT37pmisQAItCFqA7FD/vNb8dgaJy3/630Fsc+Mz9/9f2SziBoIZ30TJooXyTwZmhi1zjXmObYg==
+
+"@primer/octicons-react@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/octicons-react/-/octicons-react-17.0.0.tgz#c16ac8671edee682a513b1afa8a004c7c5b1d767"
+  integrity sha512-/9VLaNVNWwmTFgFlaxO3r+4GbqiG05ytkDLbKxBAdBiOJLadUPo6P0k+/zJdp8No/S2bBNvEtZNNk5zQj87H4w==
 
 "@radix-ui/number@0.1.0":
   version "0.1.0"
@@ -514,6 +535,11 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
+"@types/marked@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-4.0.2.tgz#cb2dbf10da2f41cf20bd91fb5f89b67540c282f7"
+  integrity sha512-auNrZ/c0w6wsM9DccwVxWHssrMDezHUAXNesdp2RQrCVCyrQbOiSq7yqdJKrUQQpw9VTm7CGYJH2A/YG7jjrjQ==
+
 "@types/mdast@^3.0.0":
   version "3.0.10"
   resolved "https://registry.yarnpkg.com/@types/mdast/-/mdast-3.0.10.tgz#4724244a82a4598884cbbe9bcfd73dff927ee8af"
@@ -551,7 +577,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@17.0.40":
+"@types/react@17.0.40", "@types/react@>=16":
   version "17.0.40"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.40.tgz#dc010cee6254d5239a138083f3799a16638e6bad"
   integrity sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==
@@ -1951,6 +1977,11 @@ markdown-extensions@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-extensions/-/markdown-extensions-1.1.1.tgz#fea03b539faeaee9b4ef02a3769b455b189f7fc3"
   integrity sha512-WWC0ZuMzCyDHYCasEGs4IPvLyTGftYwh6wIEOULOF0HXcqZlhwRzrK0w2VUlxWA98xnvb/jszw4ZSkJ6ADpM6Q==
 
+marked@^4.0.12:
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.12.tgz#2262a4e6fd1afd2f13557726238b69a48b982f7d"
+  integrity sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==
+
 mdast-util-definitions@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/mdast-util-definitions/-/mdast-util-definitions-5.1.0.tgz#b6d10ef00a3c4cf191e8d9a5fa58d7f4a366f817"
@@ -2624,6 +2655,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prism-react-renderer@^1.2.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.3.1.tgz#88fc9d0df6bed06ca2b9097421349f8c2f24e30d"
+  integrity sha512-xUeDMEz074d0zc5y6rxiMp/dlC7C+5IDDlaEUlcBOFE2wddz7hz5PNupb087mPwTt7T9BrFmewObfCBuf/LKwQ==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
